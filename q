@@ -1,0 +1,22 @@
+演習1の作成
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   .mvn/wrapper/MavenWrapperDownloader.java
+#	new file:   .mvn/wrapper/maven-wrapper.jar
+#	new file:   .mvn/wrapper/maven-wrapper.properties
+#	new file:   mvnw
+#	new file:   mvnw.cmd
+#	new file:   pom.xml
+#	new file:   src/main/java/com/example/ExBiginnerApplication.java
+#	new file:   src/main/java/com/example/Exam01Controller.java
+#	new file:   src/main/resources/application.yml
+#	new file:   src/main/resources/templates/exam01-result.html
+#	new file:   src/main/resources/templates/exam01.html
+#
