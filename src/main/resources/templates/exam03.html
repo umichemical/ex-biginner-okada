@@ -7,10 +7,15 @@
 <body>
 <form action="exam03-result.html"
 	th:action="@{/exam03/result}"
-	method="post">
-商品1:<input type="text" name="product1"><br>
+	method="post"
+	th:object="${exam03Form}">
+<!-- 商品1:<input type="text" name="product1"><br>
 商品2:<input type="text" name="product2"><br>
-商品3:<input type="text" name="product3"><br>
+商品3:<input type="text" name="product3"><br> -->
+	
+商品1:<input type="text" name="product1" th:field="*{product1}"><br>
+商品2:<input type="text" name="product2" th:field="*{product2}"><br>
+商品3:<input type="text" name="product3" th:field="*{product3}"><br>
 <button>購入</button>
 	</form>
 </body>

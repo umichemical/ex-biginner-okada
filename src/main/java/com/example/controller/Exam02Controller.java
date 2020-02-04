@@ -21,11 +21,11 @@ public class Exam02Controller {
 	@RequestMapping("/result")
 	public String result(Integer num1,Integer num2) {
 		
-		Integer ans=num1+num2;
+		Integer answer=num1+num2;
 		
 		session.setAttribute("num1",num1);
 		session.setAttribute("num2", num2);
-		session.setAttribute("ans", ans);
+		session.setAttribute("answer", answer);
 		
 		return "exam02-result";
 	}
